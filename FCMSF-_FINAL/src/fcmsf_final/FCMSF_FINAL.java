@@ -18,7 +18,7 @@ public static Connection getCon()
 {
 try { 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/foster_care","root","aiman@2002");
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/foster_care","root","(Password tom your backend)");
             return con;
         } 
         catch (Exception e) {
